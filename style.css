@@ -130,7 +130,7 @@ input[type="text"]:focus {
   margin: 0 10px;
 }
 
-.list-item > label {
+.list-item > .task-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -152,7 +152,7 @@ input[type="text"]:focus {
 }
 
 /* Completed */
-.list#completed-list label {
+.list#completed-list .task-label {
   text-decoration: line-through;
   color: #888;
 }
@@ -167,6 +167,6 @@ input[type="text"]:focus {
   width: 224px
 }
 
-.list .list-item.edit-mode label {
+.list .list-item.edit-mode .task-label {
   display: none;
 }
