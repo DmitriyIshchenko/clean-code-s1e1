@@ -18,6 +18,7 @@ var completedList=document.getElementById("completed-list");//completed-list
 var createNewTaskElement=function(taskString){
 
     var listItem=document.createElement("li");
+    listItem.className = "list-item";
 
     //input (checkbox)
     var checkBox=document.createElement("input");//checkbx
