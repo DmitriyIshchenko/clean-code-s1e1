@@ -20,12 +20,10 @@
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
-
+@media (max-width: 768px) {
   .header {
     text-align: center;
   }
-
 }
 
 .content {
@@ -106,7 +104,7 @@
 }
 
 /* New Task */
-.form__title {
+.form__label {
   display: block;
   margin: 0 0 20px;
 }
