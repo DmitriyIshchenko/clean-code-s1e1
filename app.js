@@ -10,8 +10,8 @@
 
 var taskInput=document.getElementById("new-task");//Add a new task.
 var addButton=document.getElementsByTagName("button")[0];//first button
-var pendingList=document.getElementById("pending-list");//ul of #pending-list
-var completedList=document.getElementById("completed-list");//completed-list
+var pendingList=document.querySelector(".list--pending");//ul of #pending-list
+var completedList=document.querySelector(".list--completed");//completed-list
 
 
 //New task list item
